@@ -1,0 +1,23 @@
+<h2>Template Screen</h2>
+
+<div class="download">
+    <button class="round-button" (click)="downloadTemplate()">Download Template</button>
+</div>
+
+<div class="upload">
+    <!-- <input type="file" (change)="handleFileInput($event.target.files)" /> -->
+<button class="round-button" (click)="uploadTemplate()">Upload Template</button>
+</div>
+
+<div>
+    <table>
+        <tbody>
+          <tr *ngFor="let data of uploadedData">
+            <td>{{ data.orgName }}</td>
+            <td>{{ data.uploadedAt }}</td>
+          </tr>
+        </tbody>
+      </table>
+</div>
+
+
