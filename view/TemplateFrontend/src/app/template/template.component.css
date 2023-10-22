@@ -1,0 +1,77 @@
+/* template.component.css */
+
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: 34px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* input[type="file"] {
+    margin-right: 10px;
+  } */
+  
+  .download {
+    padding: 10px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .upload{
+    padding: 10px 10px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  button {
+    padding:  12px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    
+  }
+
+  .round-button{
+  border: none;
+  border-radius: 10px; /* Adjust the value to control the roundness of the corners */
+  background-color: rgb(245, 223, 29); /* Adjust the color as needed */
+  color: rgb(0, 0, 0); /* Text color */
+  padding: 20px 20px; /* Adjust the padding for your button size */
+  text-align: center;
+  text-decoration: black;
+  display: inline-block;
+  font-size: 20px;
+  margin: 10px 10px;
+  cursor: pointer;
+  width: 1200px;
+  }
+
+  .round-button:hover {
+    background-color: rgb(223, 207, 63); /* Adjust the hover color if desired */
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 12px;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: left;
+  }
+  
+  th {
+    background-color: #2187e7;
+  }
+  
+  /* Optional: Add some spacing and styling to the table rows */
+  tbody tr:hover {
+    background-color: #247de2;
+  }
+  
